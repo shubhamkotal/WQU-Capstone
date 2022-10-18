@@ -37,6 +37,9 @@ Using a pre trained model FinBERT for analyzing the sentiments.
 FinBERT is a pre-trained natural language processing (NLP) model that analyses the sentiment of financial writing. It is created by fine-tuning the BERT language model for financial sentiment categorization by further training it in the finance domain using a large financial corpus. 
 
 1.	Importing required libraries and downloading required pre trained model files.
+Link to download pretrained model: 
+https://huggingface.co/ProsusAI/finbert/blob/main/pytorch_model.bin
+
 2.	Defining function required for cleaning the text data and further adding extra characters used in the operation of pre trained model operation.
 3.	Giving labels to the classes
 4.	Calling the pre-trained model
